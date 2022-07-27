@@ -1,29 +1,30 @@
-		body {
+		body {									/* Background Colour */
 			background-color: #ffffff;
 		}
 
 		h1 {
-			text-align: center;
+			text-align: center;					/*   text under doggy image  */
 			font-family: Arial, sans-serif;
 			font-weight: normal;
 			color: rgb(0, 0, 0);
 
 		}
 
-		h2 {
+		h2 { 									/* Title "Welcome To..." */
 			font-family: Arial, sans-serif;
 			color: rgb(255, 255, 255);
 		}
 
-		h3 {									/*  "LOOK AT THIS LOSER" text  */
+		h3 {									/*   Title "Doggy Of Peace"  */  
 			font-family: Arial, sans-serif;
 			color:#ffffff;
 			font-size: 50px;
 		}
 
-		p {
+		p {										/*  "Heres The Reasons" Text */
 			font-family: Arial, sans-serif;
 			color: rgb(255, 255, 255);
+			font-size:35px;
 		}
 
 		summary {
