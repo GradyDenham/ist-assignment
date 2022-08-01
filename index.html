@@ -3,9 +3,11 @@
 
 <head>
 	<title> Icarus The Drone </title>					<!--what it says on the tab in chrome-->
-	<link href="light.css" rel="stylesheet">
-	<script src="dark-light-mode.js"></script>>
+	<link id="theme" rel="stylesheet" type="text/css" href="dark.css"/>
+	<script src="dark-light-mode.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1" content="width=device-height,initial-scale=1"/>
 
+	
 </head>
 
 <body>
@@ -20,9 +22,7 @@
 	<br>
 	<hr>
 	<br>
-	<button id="dark-light-button" onload="toggleTextTheme()" 
-	onclick="toggleTheme();toggleTextTheme()" button="" class="button 
-	darkmodebutton">Toggle Light Mode</button>
+	<button onclick="toggleTheme()" button class="button1">Toggle Light/Dark Mode</button>
 	<br>
 	<hr>
 	<br>
