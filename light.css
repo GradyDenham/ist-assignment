@@ -1,5 +1,6 @@
 		body {									/* Background Colour */
 			background-color: #ffffff;
+			transition-duration: 0.4s;
 		}
 
 		h1 {
