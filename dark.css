@@ -1,12 +1,13 @@
 body {									/* Background Colour */
-    background-color: #000000;
+    background-color: rgb(38, 37, 49);
+    transition-duration: 0.4s;
 }
 
 h1 {
     text-align: center;					/*   text under doggy image  */
     font-family: Arial, sans-serif;
     font-weight: normal;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 
